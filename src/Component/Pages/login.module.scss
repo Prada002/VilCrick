@@ -1,0 +1,56 @@
+.loginMainCotainer {
+  //   background-color: rgba(37, 179, 37, 0.699);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  @media (max-width: 600px) {
+    flex-direction: column !important;
+  }
+  .loginMainCotainerLeft {
+    background-color: rgba(2, 51, 124, 0.555);
+    width: 50%;
+    // height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @media (max-width: 600px) {
+      flex-direction: column !important;
+      width: 100%;
+      height: 30%;
+    }
+    .loginMainCotainerLeftTitle {
+      font-size: 40px;
+      color: #fff;
+    }
+  }
+  .loginMainCotainerRight {
+    width: 50%;
+    // height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @media (max-width: 600px) {
+      flex-direction: column !important;
+      justify-content: flex-start !important;
+      margin-top: 3%;
+      width: 100%;
+      height: 70%;
+    }
+    .loginMainCotainerLoginBox {
+      box-shadow: 0 0 5px rgba(2, 51, 124, 0.555);
+
+      padding: 40px;
+      width: 50%;
+      //   height: 28%;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 30px;
+    }
+  }
+}

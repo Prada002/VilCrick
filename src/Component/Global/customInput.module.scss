@@ -1,0 +1,15 @@
+.CustomInputMain {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  label {
+  }
+  .CustomInput {
+    outline: none;
+    border: 1px solid #cccccc;
+    padding: 3px 6px;
+    border-radius: 5px;
+    height: 40px;
+    // width: 100%;
+  }
+}
